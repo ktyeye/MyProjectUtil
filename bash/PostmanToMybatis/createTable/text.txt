@@ -1,0 +1,156 @@
+입찰공고번호	bidNtceNo	40	필	20160430911	(방위사업청 오픈API 연계데이터 포함)입찰공고를 관리하기 위한 번호이며 조달청나라장터 공고건의 형식은 년도(4)+월(2)+순번(5)이며 자체전자조달시스템 보유기관은 각 기관별 형식 별도 사용
+입찰공고차수	bidNtceOrd	2	필	02	(방위사업청 오픈API 연계데이터 포함)입찰공고차수는 해당 입찰공고에 대한 재공고 및 재입찰 등이 발생되었을 경우 증가되는 수
+재공고여부	reNtceYn	1	필	N	본 입찰공고의 재공고 여부(Y/N)
+등록유형명	rgstTyNm	100	필	조달청 또는 나라장터 자체 공고건	입찰공고가
+공고종류명	ntceKindNm	100	필	변경	(방위사업청 오픈API 연계데이터 포함)공고의 공고상태명으로 일반, 변경, 취소, 재입찰, 연기, 긴급, 갱신, 긴급갱신 구분
+국제입찰여부	intrbidYn	1	옵	N	(방위사업청 오픈API 연계데이터 포함)국제입찰대상인지의 여부를 나타내며 국제입찰 대상은 내외국인 또는 외국인을 대상으로 하여 물품, 공사 및 용역을 조달하기 위하여 행하는 입찰을 말하
+입찰공고일시	bidNtceDt	19	필	2016-05-02 08:40:34	(방위사업청 오픈API 연계데이터 포함)입찰공고서를 공고한 일시 “YYYY-MM-DD HH:MM:SS”
+참조번호	refNo	105	옵	2016-14-1	조달청 입찰공고의 경우 참조공고번호는 자체 전자조달시스템에서 관리하는 공고번호를 의미하며 자체전자조달시스템의 경우 참조공고번호는 나라장터(G2B) 입찰공고번호를 의미함
+입찰공고명	bidNtceNm	100	필	국립평창청소년수련원 노후시설 방수공사	(방위사업청 오픈API 연계데이터 포함)공사명 또는 사업명이라고도 하며 입찰공고 내용을 요약한 이름
+공고기관코드	ntceInsttCd	7	필	Z005500	공고를 하는 기관의 코드로 행자부코드(행정자치부에서 부여한 기관코드)가 있는 경우 행자부코드가 행자부코드가 없는 경우 조달청에서 부여한 공고기관 코드가 표기됨
+공고기관명	ntceInsttNm	200	필	국립평창청소년수련원	수요기관의 의뢰를 받아 공고하는 기관의 명
+수요기관코드	dminsttCd	7	필	Z005500	(방위사업청 오픈API 연계데이터 포함)실제 수요기관의 코드로 행자부코드(행정자치부에서 부여한 기관코드)가 있는 경우 행자부코드가 행자부코드가 없는 경우 조달청에서 부여한 수요기관
+수요기관명	dminsttNm	200	필	국립평창청소년수련원	(방위사업청 오픈API 연계데이터 포함)중앙조달인 경우 조달사업에 관한 법률 제2조(정의)에 따라 수요물자의 구매 공급 또는 시설공사 계약의 체결을 조달청장에게 요청할 수 있도록 조달청장
+입찰방식명	bidMethdNm	200	필	전자입찰	공고의 입찰방식명 직찰, 전자입찰,전자입찰/직찰,전자/직찰/우편/상시,직찰/우편/상시,우편/상시,전자시담,복수견적(역경매),직찰/우편,전자시담(다자간)
+계약체결방법명	cntrctCnclsMthdNm	200	필	제한경쟁	계약체결의 방법을 구분하는 명, *일반경쟁계약은 계약 대상 물품의 규격 및 시방서와 계약조건 등을 널리 공고하여 일정한 자격을 가진 불특정 다수인의 입찰희망자를 모두 경쟁 입찰하는 계
+공고기관담당자명	ntceInsttOfclNm	35	옵	박한기	(방위사업청 오픈API 연계데이터 포함)공고기관의 공고를 담당하는 담당자의 명
+공고기관담당자전화번호	ntceInsttOfclTelNo	25	옵	033-330-0834	공고기관의 공고를 담당하는 담당자의 전화번호
+공고기관담당자이메일주소	ntceInsttOfclEmailAdrs	100	옵	nskk22@kywa.or.kr	공고기관의 공고를 담당하는 담당자의 이메일주소
+집행관명	exctvNm	35	옵	박한기	공고의 집행관명
+입찰참가자격등록마감일시	bidQlfctRgstDt	19	옵	2016-05-08 18:00:00	(방위사업청 오픈API 연계데이터 포함)입찰참가등록이란 입찰사무를 효과적으로 집행하기 위하여 사전에 입찰참가자격등록을 해두었다가 필요 시 입찰에 참여하는 제도로 해당 공고에 대한 입
+공동수급협정서접수방식	cmmnSpldmdAgrmntRcptdocMethd	30	옵	공고서참조	공동수급협정서의 접수방식을 받지 않을 것인지 전자문서로 받을 것인지 또는 수기로 받을 것인지에 따라 “없음”,“전자문서”,“수기”
+공동수급협정마감일시	cmmnSpldmdAgrmntClseDt	19	옵	2002-09-24 17:00:00	공동계약이 허용된 공고에 대해 공동수급체를 구성하여 입찰에 참여하고자 할 경우 구성원이 일정 분담내용에 따라 나누어 공동으로 이행하는 약속을 한 공동수급협정서를 작성하여야 하며
+공동수급업체지역제한여부	cmmnSpldmdCorpRgnLmtYn	1	옵	N	공동수급협정시 구성원의 지역제한을 적용할지 여부. 지역제한인경우 협정 구성업체가 참가제한지역에 포함되어야 함.(Y/N)
+입찰개시일시	bidBeginDt	19	옵	2016-05-03 10:00:00	입찰서의 제출을 개시하는 일시 “YYYY-MM-DD HH:MM:SS”
+입찰마감일시	bidClseDt	19	옵	2016-05-09 10:00:00	(방위사업청 오픈API 연계데이터 포함)입찰서의 제출을 마감하는 일시 “YYYY-MM-DD HH:MM:SS”
+개찰일시	opengDt	19	옵	2002-09-18 10:00:00	(방위사업청 오픈API 연계데이터 포함)집행관이 개찰을 수행할 수 있는 시작일시이며
+공고규격서URL1	ntceSpecDocUrl1	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::1	공고의 공고규격서URL
+공고규격서URL2	ntceSpecDocUrl2	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::2	공고의 공고규격서URL
+공고규격서URL3	ntceSpecDocUrl3	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::3	공고의 공고규격서URL
+공고규격서URL4	ntceSpecDocUrl4	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::4	공고의 공고규격서URL
+공고규격서URL5	ntceSpecDocUrl5	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::5	공고의 공고규격서URL
+공고규격서URL6	ntceSpecDocUrl6	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::6	공고의 공고규격서URL
+공고규격서URL7	ntceSpecDocUrl7	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::7	공고의 공고규격서URL
+공고규격서URL8	ntceSpecDocUrl8	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::8	공고의 공고규격서URL
+공고규격서URL9	ntceSpecDocUrl9	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::9	공고의 공고규격서URL
+공고규격서URL10	ntceSpecDocUrl10	800	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20160430911::02::1::10	공고의 공고규격서URL
+공고규격파일명1	ntceSpecFileNm1	256	옵	20160430911-02_1462145881663_1. (변경)공고문.hwp	공고의 공고규격파일명
+공고규격파일명2	ntceSpecFileNm2	256	옵	20160430911-02_1462145881668_2. 시방서.hwp	공고의 공고규격파일명
+공고규격파일명3	ntceSpecFileNm3	256	옵	20160430911-02_1462145881670_3. 설계설명서.hwp	공고의 공고규격파일명
+공고규격파일명4	ntceSpecFileNm4	256	옵	20160430911-02_1462145881672_4. 공내역서.xlsx	공고의 공고규격파일명
+공고규격파일명5	ntceSpecFileNm5	256	옵	20160530911-02_1462145881663_1. (변경)공고문.hwp	공고의 공고규격파일명
+공고규격파일명6	ntceSpecFileNm6	256	옵	20160530911-02_1462145881668_2. 시방서.hwp	공고의 공고규격파일명
+공고규격파일명7	ntceSpecFileNm7	256	옵	20160530911-02_1462145881670_3. 설계설명서.hwp	공고의 공고규격파일명
+공고규격파일명8	ntceSpecFileNm8	256	옵	20160530911-02_1462145881672_4. 공내역서.xlsx	공고의 공고규격파일명
+공고규격파일명9	ntceSpecFileNm9	256	옵	20120901436-01_공고2002-18호.hwp	공고의 공고규격파일명
+공고규격파일명10	ntceSpecFileNm10	256	옵	20120901436-01_공고2002-18호.hwp	공고의 공고규격파일명
+재입찰허용여부	rbidPermsnYn	1	옵	Y	입찰이 유찰되는 경우 재공고 없이 다시 입찰(Y/N)
+PQ신청서접수방법명	pqApplDocRcptMthdNm	30	옵	없음	PQ대상공고에서 PQ심사신청서를 어떻게 받을지에 대한 코드명
+PQ신청서접수일시	pqApplDocRcptDt	19	옵	2002-09-18 10:00:00	PQ심사신청서 접수 마감일시 “YYYY-MM-DD HH:MM:SS”
+실적신청서접수방법명	arsltApplDocRcptMthdNm	50	옵	없음	공고의 실적신청서접수방법명
+실적신청서접수일시	arsltApplDocRcptDt	19	옵	2002-09-18 10:00:00	실적심사신청서 접수마감일시 “YYYY-MM-DD HH:MM:SS”
+공동도급의무지역명1	jntcontrctDutyRgnNm1	200	옵	서울특별시	공고의 공동도급의무지역명
+공동도급의무지역명2	jntcontrctDutyRgnNm2	200	옵	서울특별시	공고의 공동도급의무지역명
+공동도급의무지역명3	jntcontrctDutyRgnNm3	200	옵	서울특별시	공고의 공동도급의무지역명
+지역의무공동도급비율	rgnDutyJntcontrctRt	20	옵	40	지역의무공동동급시 3개지역의 공동도급합산 하한 비율(%)
+내역입찰여부	dtlsBidYn	1	옵	N	내역입찰인지는 나타내는 항목으로 내역입찰일 경우 투찰시 내역서를 첨부해야함(Y/N)
+입찰참가제한여부	bidPrtcptLmtYn	1	옵	N	공고의 입찰참가제한여부(Y/N)
+예정가격결정방법명	prearngPrceDcsnMthdNm	20	옵	복수예가	예정가격의 결정을 위해 복수예정가격방식으로 산정하는지 단일 예정가격으로 산정하는지를 구분하는 명
+총예가건수	totPrdprcNum	20	옵	15	공고의 총예가건수
+추첨예가건수	drwtPrdprcNum	20	옵	4	공고의 추첨예가건수
+추정가격	presmptPrce	25	옵	213636363	물품/공사/용역 등의 조달 계약을 체결함에 있어 국제입찰 대상여부를 판단하는 기준 등으로 삼기 위하여 예정가격이 결정되기 전에 예산에 계상된 금액 등을 기준으로 하여 부가가치세 및 조
+관급금액	govsplyAmt	21	옵	128822000	공고의 관급금액(원화,원)
+적용기준내용	aplBssCntnts	30	옵	행자부	공고의 적용기준내용
+업종평가비율	indstrytyEvlRt	20	옵	69.79	적격심사에서 사용하는 업종평가비율(%)
+주공종명	mainCnsttyNm	200	옵	상.하수도설비공사업	공고의 주공종명
+주공종공사예정금액	mainCnsttyCnstwkPrearngAmt	21	옵	681790000	적격심사시 주공종추정금액(원화,원)
+가산지역명1	incntvRgnNm1	200	옵	경상남도	적격심사를 실시할 경우 해당 지역 업체의 경우 가산점을 얻을 수 있는 지역명
+가산지역명2	incntvRgnNm2	200	옵	경기도	적격심사를 실시할 경우 해당 지역 업체의 경우 가산점을 얻을 수 있는 지역명
+가산지역명3	incntvRgnNm3	200	옵	서울특별시	적격심사를 실시할 경우 해당 지역 업체의 경우 가산점을 얻을 수 있는 지역명
+가산지역명4	incntvRgnNm4	200	옵	서울특별시	적격심사를 실시할 경우 해당 지역 업체의 경우 가산점을 얻을 수 있는 지역명
+개찰장소	opengPlce	100	옵	국가종합전자조달시스템(나라장터)	(방위사업청 오픈API 연계데이터 포함)집행관이 개찰을 하는 장소
+설명회실시일시	dcmtgOprtnDt	19	옵	2002-09-13 09:00:00	(방위사업청 오픈API 연계데이터 포함)해당 공고에 대한 현장/입찰/과업 설명회를 실시하는 일시”YYYY-MM-DD HH:MM:SS”
+설명회실시장소	dcmtgOprtnPlce	100	옵	우리청 관리과	(방위사업청 오픈API 연계데이터 포함)해당 공고에 대한 설명회를 실시하는 경우 현장/입찰/과업 설명회를 실시하는 장소
+도급자설치관급자재금액	contrctrcnstrtnGovsplyMtrlAmt	21	옵	0	공고의 도급자설치관급자재금액(원화,원)
+관급자설치관급자재금액	govcnstrtnGovsplyMtrlAmt	21	옵	128822000	공고의 관급자설치관급자재금액(원화,원)
+입찰공고상세URL	bidNtceDtlUrl	512	옵	http://www.g2b.go.kr:8081/ep/invitation/publish/bidInfoDtl.do?bidno=20160430911&bidseq=02&releaseYn=Y&taskClCd=3	나라장터시스템의 입찰공고 상세화면 링크
+입찰공고URL	bidNtceUrl	500	옵	http://www.ebidplus.jeonnam.kr	해당 입찰공고를 인터넷상에서 확인할 수 있는 URL주소
+입찰참가수수료납부여부	bidPrtcptFeePaymntYn	30	옵	전자납부	입찰참가 의사가 있는 자가 납부하여야하는 수수료의 유무 및 납부방법을 표기하는 것으로
+입찰참가수수료	bidPrtcptFee	21	옵	10000	입찰에 참가하기위해 납부하는 수수료(원화,원)
+입찰보증금납부여부	bidGrntymnyPaymntYn	30	옵	불허	입찰보증금을 나라장터에서 전자로 납부가능하게 할지 여부(Y/N)
+채권자명	crdtrNm	200	옵	국립평창청소년수련원	입찰보증금 항목의
+공동수급업체수	cmmnSpldmdCnum	100	옵	공고서에 의함	공고의 공동수급업체수
+통합공고번호	untyNtceNo	11	옵	00019991191	입찰공고를 구분하는 번호로 입찰공고번호이며 형식은 년도(4)+월(2)+순번(5)
+현장설명서URL1	sptDscrptDocUrl1	500	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=::::::^	공고의 현장설명서URL
+현장설명서URL2	sptDscrptDocUrl2	500	옵	http://www.g2b.go.kr:8082/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=::::::^	공고의 현장설명서URL
+현장설명서URL3	sptDscrptDocUrl3	500	옵	http://www.g2b.go.kr:8083/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=::::::^	공고의 현장설명서URL
+현장설명서URL4	sptDscrptDocUrl4	500	옵	http://www.g2b.go.kr:8084/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=::::::^	공고의 현장설명서URL
+현장설명서URL5	sptDscrptDocUrl5	500	옵	http://www.g2b.go.kr:8085/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=::::::^	공고의 현장설명서URL
+부대공종명1	subsiCnsttyNm1	200	옵	토목공사업	공고의 부대공종명
+부대공종명2	subsiCnsttyNm2	200	옵	건축공사업	공고의 부대공종명
+부대공종명3	subsiCnsttyNm3	200	옵	기계설비공사업	공고의 부대공종명
+부대공종명4	subsiCnsttyNm4	200	옵	상.하수도설비공사업	공고의 부대공종명
+부대공종명5	subsiCnsttyNm5	200	옵	조경식재공사업	공고의 부대공종명
+부대공종명6	subsiCnsttyNm6	200	옵	시설물유지관리업	공고의 부대공종명
+부대공종명7	subsiCnsttyNm7	200	옵	일반소방시설공사업(기계)	공고의 부대공종명
+부대공종명8	subsiCnsttyNm8	200	옵	일반소방시설공사업(전기)	공고의 부대공종명
+부대공종명9	subsiCnsttyNm9	200	옵	산업.환경설비공사업	공고의 부대공종명
+부공종업종평가비율1	subsiCnsttyIndstrytyEvlRt1	20	옵	33	공고의 부공종업종평가비율(%)
+부공종업종평가비율2	subsiCnsttyIndstrytyEvlRt2	20	옵	37.51	공고의 부공종업종평가비율(%)
+부공종업종평가비율3	subsiCnsttyIndstrytyEvlRt3	20	옵	32.75	공고의 부공종업종평가비율(%)
+부공종업종평가비율4	subsiCnsttyIndstrytyEvlRt4	20	옵	39.7	공고의 부공종업종평가비율(%)
+부공종업종평가비율5	subsiCnsttyIndstrytyEvlRt5	20	옵	30	공고의 부공종업종평가비율(%)
+부공종업종평가비율6	subsiCnsttyIndstrytyEvlRt6	20	옵	24.94	공고의 부공종업종평가비율(%)
+부공종업종평가비율7	subsiCnsttyIndstrytyEvlRt7	20	옵	33	공고의 부공종업종평가비율(%)
+부공종업종평가비율8	subsiCnsttyIndstrytyEvlRt8	20	옵	27	공고의 부공종업종평가비율(%)
+부공종업종평가비율9	subsiCnsttyIndstrytyEvlRt9	20	옵	32	공고의 부공종업종평가비율(%)
+공동수급방식코드	cmmnSpldmdMethdCd	1	옵	4	공동수급이라 함은 구성원을 2인 이상으로 하여 수급인이 해당계약을 공동으로 수행하기 위하여 잠정적으로 결성한 실체를 의미하며 공동수급체가도급을 받아 이행하는 방식을 구분하는 코드
+공동수급방식명	cmmnSpldmdMethdNm	100	옵	공동수급불허	(방위사업청 오픈API 연계데이터 포함)공동수급이라 함은 구성원을 2인 이상으로 하여 수급인이 해당계약을 공동으로 수행하기 위하여 잠정적으로 결성한 실체를 의미하며 공동수급체가도급을
+표준공고서URL	stdNtceDocUrl	256	옵	http://www.g2b.go.kr:8081/ep/co/fileDownload.do?fileTask=NOTIFY&fileSeq=20020901436::01::1::1	공고의 표준공고문URL
+지사투찰허용여부	brffcBidprcPermsnYn	1	옵	N	지역제한 공고에 한해서 지사 투찰을 허용할지 여부. 투찰제어시 사용(Y/N)
+공종별지분율목록	cnsttyAccotShreRateList	4000	옵	[전기공사업^100],	공고의 공종별지분율 목록 [부업종코드명^부업종평가비율(%)],[부업종코드명^부업종평가비율(%)]
+시공능력평가금액목록	cnstrtnAbltyEvlAmtList	4000	옵	[1^토목공사업^0001^7400000000],	공고의 시공능력평가금액목록 [제한그룹번호^면허지역통합코드명^면허지역통합코드^시공능력평가금액],[제한그룹번호^면허지역통합코드명^면허지역통합코드^시공능력평가금액]
+지명경쟁여부	dsgntCmptYn	1	옵	N	(방위사업청 오픈API 연계데이터 포함)공고의 지명경쟁여부(Y/N)
+실적경쟁여부	arsltCmptYn	1	옵	N	공고의 실적경쟁여부(Y/N)
+PQ심사여부	pqEvalYn	1	옵	N	공고의 PQ심사여부(Y/N)
+공고설명여부	ntceDscrptYn	1	옵	N	공고의 공고설명여부(Y/N)
+예비가격재작성방법명	rsrvtnPrceReMkngMthdNm	50	옵	재입찰시 기존 예비가격을 사용하여 예정가격이 산정됩니다	공고의 예비가격재작성방법명
+주공종추정가격	mainCnsttyPresmptPrce	25	옵	5000	주공종에 대한 추정가격(원화,원)
+발주계획통합번호	orderPlanUntyNo	35	옵	3-1-2016-Z005500-000007	업무구분코드(1)-업무유형코드(3)-발주년도(4)-기관코드(7)-발주계획순번(6) 로 구성됨
+낙찰하한율	sucsfbidLwltRate	22	옵	87.745	(방위사업청 오픈API 연계데이터 포함)개찰시 사용하는 낙찰하한율(%)
+등록일시	rgstDt	19	필	2002-09-18 10:00:00	(방위사업청 오픈API 연계데이터 포함)공고의 등록일시 “YYYY-MM-DD HH:MM:SS”
+사전규격등록번호	bfSpecRgstNo	10	옵	338609	공고의 사전규격등록번호
+낙찰방법코드	sucsfbidMthdCd	10	옵	10	(방위사업청 오픈API 연계데이터 포함)낙찰방법명에 대한 코드
+낙찰방법명	sucsfbidMthdNm	200	옵	제한최저	(방위사업청 오픈API 연계데이터 포함)낙찰자를 결정하는 방법
+예산금액	bdgtAmt	25	옵	235000000	공고의 예산금액(원화,원)
+변경일시	chgDt	19	옵	2002-09-18 10:00	공고의 변경일시 “YYYY-MM-DD HH:MM:SS”
+연계기관명	linkInsttNm	100	옵	방위사업청	(방위사업청 오픈API 연계데이터 포함) 나라장터에 연계를 통하여 입찰 및 계약을 등록한 기관명. * 방위사업청, 한국전력공사 등 (자체)전자조달시스템을 운영하는 기관명
+수요기관담당자이메일주소	dminsttOfclEmailAdrs	100	옵	nskk22@kywa.or.kr	수요기관 담당자의 이메일주소
+업종제한여부	indstrytyLmtYn	1	옵	Y	(방위사업청 오픈API 연계데이터 포함)(방위사업청 오픈API 연계 데이터 포함) 해당 공고 입찰 시 업종(면허)제한을 두는지의 여부. 예시)Y
+방사청관리지역제한여부	d2bMngRgnLmtYn	1	옵	Y	(방위사업청 오픈API 연계데이터)해당 공고 입찰 시 지역제한을 두는지의 여부예시)Y
+방사청관리게재장소명	d2bMngPblctPlceNm	20	옵	인터넷	(방위사업청 오픈API 연계데이터)해당 입찰공고가 게재될 위치(Default : 인터넷)계약관(공고기관)이 임의로 입력 가능한 데이터
+방사청관리공사개요내용	d2bMngCnstwkOutlnCntnts	3000	옵	오수관로 연결, 중계펌프장 설치 등	(방위사업청 오픈API 연계데이터)해당 입찰건의 공사 개요
+방사청관리공사구분명	d2bMngCnstwkDivNm	100	옵	신축공사	(방위사업청 오픈API 연계데이터)방위사업청 기준 공사 구분 명칭
+방사청관리공사기간내용	d2bMngCnstwkPrdCntnts	30	옵	착수일로부터240일	(방위사업청 오픈API 연계데이터)해당 입찰건의 공사 기간 정보
+방사청관리공사규모내용	d2bMngCnstwkScleCntnts	100	옵	시설 지붕보수11동, 법면 보강공사	(방위사업청 오픈API 연계데이터)해당 입찰건의 공사 규모
+방사청관리예비가격기초적용여부	d2bMngRsrvtnPrceBssAplYn	1	옵	Y	(방위사업청 오픈API 연계데이터)해당 입찰공고의 기초 예비가격 적용 여부. (적용 : Y / 미적용 : N)
+방사청관리기초금액	d2bMngBssamt	21	옵	102117000	(방위사업청 오픈API 연계데이터)예정가격 작성 과정에서 거래실례가격, 원가계산가격 등에 의하여 조사한 가격이나 설계가격에 대하여 계약담당공무원이 그 적정여부를 검토조정한 가격(원화
+방사청관리등록심사면제여부	d2bMngRgstEvalExmpYn	1	옵	N	(방위사업청 오픈API 연계데이터)입찰참가자가 해당 입찰에 참여할 수 있는지 자격조건을 계약담당공무원이 심사하는지의 여부. (Y:입찰참가등록 후 등록심사 없이 입찰서제출 N:입찰참가등록
+방사청관리사전심사대상여부	d2bMngBfEvalObjYn	1	옵	N	(방위사업청 오픈API 연계데이터)(대상 : Y / 비대상 : N) * 사전심사 : 입찰참가신청서를 계약담당공무원이 등록심사할 때의 시점. 참가신청 후 등록심사에 확정된 조달업체만 입찰서 제출 가능
+방사청관리사전심사마감일시	d2bMngBfEvalClseDt	19	옵	2002-09-18 10:00:00	(방위사업청 오픈API 연계데이터)입찰참가신청서를 계약담당공무원이 등록심사할 때의 시점의 마감 일시 “YYYY-MM-DD HH:MM:SS”
+방사청관리사정상한율	d2bMngAssmntUplmtRt	22	옵	-3	(방위사업청 오픈API 연계데이터) 예정가격을 기초금액으로 나눈 비율(상한)
+방사청관리사정하한율	d2bMngAssmntLwstlmtRt	22	옵	3	(방위사업청 오픈API 연계데이터)예정가격을 기초금액으로 나눈 비율(하한)
+방사청관리공사위치명	d2bMngCnstwkLctNm	40	옵	경상북도,경기도,인천광역시소재	(방위사업청 오픈API 연계데이터)해당 입찰건의 공사 지역명
+방사청관리진행상태명	d2bMngProgrsSttusNm	100	옵	공개협상완료	(방위사업청 오픈API 연계데이터)방위사업청 입찰공고의 진행 상태 정보(진행중/공개협상완료/견적서제출마감/조달판단중/판단완료/공고확정/…)
+방사청관리협상계획일자	d2bMngNgttnPlanDate	10	옵	2017-12-14	(방위사업청 오픈API 연계데이터)방위사업청 공개수의협상공고일 경우, 협상 공고 일자 정보 ”YYYY-MM-DD”
+방사청관리협상형태명	d2bMngNgttnStleNm	100	옵	전자협상	(방위사업청 오픈API 연계데이터)해당 입찰건의 협상 방법명. (일반협상/전자협상)
+방사청관리요구년도	d2bMngDmndYear	4	옵	2018	(방위사업청 오픈API 연계데이터)해당 입찰건의 요구년도
+방사청관리공사번호	d2bMngCnstwkNo	10	옵	2017-00360	(방위사업청 오픈API 연계데이터)해당 입찰건의 공사번호
+공사현장지역명	cnstrtsiteRgnNm	256	옵	전라북도	공사현장의 지역명
+지역의무공동도급여부	rgnDutyJntcontrctYn	1	옵	Y	지역업체 참여가 일정 지분율 이상일 경우에만 입창이 가능한 공고 여부 ( Y:해당 N:공고서에의함)
+재입찰개찰일시	rbidOpengDt	19	옵	2016-05-10 11:00:00	공고종류명이 ‘재입찰’ 일 경우 재입찰공고의 개찰을 수행할 수 있는 시작일시 “YYYY-MM-DD HH:MM:SS”
+건설산업법적용대상여부	ciblAplYn	1	옵	Y	건설산업기본법 적용 대상인지에 대한 여부
+상호시장진출허용여부	mtltyAdvcPsblYn	1	옵	Y	건설업역(종합공사,전문공사)에 상호 진출 가능한지에 대한 여부
+건설산업법적용대상공사명	mtltyAdvcPsblYnCnstwkNm	100	옵	종합공사	건설산업법 적용대상 공사명
+부가가치세	VAT	25	옵	0	부가가치세
+주공종부가가치세	indutyVAT	25	옵	0	주공종부가가치세
