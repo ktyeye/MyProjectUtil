@@ -1,5 +1,4 @@
-
-echo "==============[convertMyBatis]==============" >> result.txt
+echo "==============[convertJavaObject]==============" >> result.txt
 echo "--------------------start-----------------------" >> result.txt
 # readline txt
 while read CURRENT_LINE; do
@@ -7,6 +6,6 @@ while read CURRENT_LINE; do
 	# echo $CURRENT_LINE
 	word=$(echo $CURRENT_LINE | awk '{print $1}'| tr -d "\":{}")
 	#convertString
-	echo $word "= #{"$word"}", >> result.txt
+	echo "String\t"$word";" >> result.txt
 done < text.txt
 echo "--------------------done.-----------------------" >> result.txt
